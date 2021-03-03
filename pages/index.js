@@ -5,9 +5,8 @@ if (typeof window !== "undefined") {
 import Perfil from '../components/perfil'
 
 
-var IndexPage=(req,res)=>{
+export default (req,res)=>{
     return (
         <Perfil/>
     )
-}
-export default IndexPage;
+};
