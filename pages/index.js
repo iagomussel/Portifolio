@@ -1,6 +1,14 @@
+if (typeof window !== "undefined") {
+    require("jquery");
+    require("popper.js");
+    require("bootstrap");
+  }
+import Perfil from '../components/perfil'
 
 
 var IndexPage=(req,res)=>{
-    return <h1>teste</h1>
+    return (
+        <Perfil/>
+    )
 }
 export default IndexPage;
